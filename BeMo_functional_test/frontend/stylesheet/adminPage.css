@@ -1,0 +1,147 @@
+#editPageForm h1 {
+	font-size: 140%;
+	font-weight: bold;
+	font-weight: normal;
+	margin-bottom: 28px;
+}
+
+#changeTextForm {
+	font-size: 140%;
+	font-weight: bold;
+	font-weight: normal;
+	margin-bottom: 28px;
+}
+
+#adminTable {
+	width: 75%;
+}
+
+#adminTable th, #adminTable td{
+	height: 40px;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #ddd;
+  	padding: 8px;
+  	font-size: 110%;
+}
+
+#adminTable th {
+	padding-top: 12px;
+  	padding-bottom: 12px;
+  	text-align: left;
+  	background-color: #CD853F;
+ 	color: white;
+}
+
+#adminTable td {
+	color: #CD853F;	
+}
+
+.editOption {
+	float: right;	
+}
+
+.editOption a{
+	border: none;
+	background-color: transparent;
+}
+
+.editPage, .deletePage {
+	border: none;
+	outline: none;
+	font-family: arial;
+	font-size: 85%;
+	font-weight: normal;
+	color: #CD853F;
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.editPage:hover, .deletePage:hover {
+	color: #DEB887;
+	font-size: 90%;
+}
+
+#editPageForm {
+	margin-top: 80px;
+	margin-left: 30px;
+	width: 100%;
+}
+
+#editPageForm h2 {
+	margin-top: 20px;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.pageGeneralInfo {
+	width: 50%;
+	height: 50px;
+	font-size: 100%;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #ddd;
+	padding-top: 25px;
+	vertical-align: middle;
+}
+
+.infoBox {
+	float: right;
+	outline: none;
+	border: 1px solid grey;
+	width: 37%;
+	height: 30px;
+	font-size: 100%;
+}
+
+#addTextForm {
+	width: 50%;
+	height: 320px;
+	font-size: 100%;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #ddd;
+	padding-top: 25px;
+	vertical-align: middle;
+}
+
+#editTextForm {
+	width: 50%;
+	height: 360px;
+	font-size: 100%;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #ddd;
+	padding-top: 25px;
+	vertical-align: middle;
+}
+
+
+.fontW {
+	margin-left: 30px;
+}
+
+.newTextContent {
+	border: 1px solid grey;
+	width: 70%;
+	height: 50px;
+	font-size: 100%;
+	resize: auto;
+	text-align: start;
+}
+
+.saveEdit {
+	margin-top: 30px;
+	width: 80px;
+	height: 30px;
+	border: hidden;
+	border-radius: 20px;
+	background-color: #F4A460;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	font-size: 100%;
+	cursor: pointer;
+	outline: none;
+}

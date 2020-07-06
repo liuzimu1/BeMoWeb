@@ -1,0 +1,405 @@
+@import url(https://db.onlinewebfonts.com/c/4ffae22b400a814a2a85f63b30bf174e?family=Socialico);
+@font-face {font-family: "Socialico"; src: url("https://db.onlinewebfonts.com/t/4ffae22b400a814a2a85f63b30bf174e.eot"); src: url("https://db.onlinewebfonts.com/t/4ffae22b400a814a2a85f63b30bf174e.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/4ffae22b400a814a2a85f63b30bf174e.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/4ffae22b400a814a2a85f63b30bf174e.woff") format("woff"), url("https://db.onlinewebfonts.com/t/4ffae22b400a814a2a85f63b30bf174e.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/4ffae22b400a814a2a85f63b30bf174e.svg#Socialico") format("svg"); } 
+
+
+body {
+	font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+html, body, div, span, h1, h2, h3, p,img, ol, ul, li,form, footer, header, nav, section {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+}
+
+div {
+	display: block;
+}
+
+#pageContainer {
+	position: relative;
+	overflow: hidden;
+}
+
+#headerContainer {
+	position: relative;
+}
+
+.navbarContainer {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 3000;
+	background-color: rgba(255, 255, 255, .9);
+}
+
+#logoContainer {
+	display: inline-block;
+	float: left;
+	width: 25%;
+	padding-left: 3%;
+}
+
+.logoImage {
+	width: 167px;
+	height: 100px;
+}
+
+#nContainer {
+	display: block;
+	float: right;
+	width: 70%;
+}
+
+nav {
+    z-index: 10000;
+    text-align: right;
+    letter-spacing: 1px;
+    padding-right: 3%;
+    position: relative;
+}
+
+ul {
+	display: block;
+    list-style-type: disc;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;	
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+li {
+	text-align: -webkit-match-parent;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+	font-family: arial;
+	padding-bottom: 30px;
+}
+
+nav > ul {
+	position: relative;
+}
+
+ul, ol {
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 30px;
+    padding: 0 27px;
+    padding-top: 30px;
+    padding-bottom: 30px;	
+}
+
+nav ul li a:hover, nav > ul > li#current > a {
+	color: #000066;
+}
+
+nav > ul > li#current:after {
+	content: "";
+    display: block;
+    opacity: 1;
+    border-bottom: 1px solid;
+    margin: 0px auto;
+    width: 40%;	
+}
+
+nav ul li:after {
+    content: "";
+    display: block;
+    opacity: 0;
+    border-bottom: 1px solid;
+    margin: 0px auto;
+    width: 40%;
+}
+
+nav ul li:hover:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid;
+    width: 40%;
+    opacity: 1;
+}
+
+#bannerContainer {
+	position: relative;
+	margin-bottom: -6px;
+	background-image: none;
+}
+
+#bannerImg {
+    width: 100%;
+    height: auto;	
+}
+
+#bannerTextContainer {
+	width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    top: 45%;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 10px;
+    z-index: 1000;
+    font-size: 46px;
+    font-family: arial;
+    color: white;	
+}
+
+#bannerTextContainer:after {
+    content: "";
+    display: block;
+    height: 1px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid;
+    margin: 0px auto;
+    width: 60%;	
+}
+
+#contentContainer {
+	position: relative;
+	background-color: #FFFFFF;
+
+}
+
+#contentContainer a, #footer a {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+section #padding {
+	font-family: arial;
+	text-align: center!important;
+	padding: 3.5%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #FFFFFF;
+    font-size: 13px;
+}
+
+#contentText {
+	text-align: justify;
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+}
+
+footer {
+	background-color: #000066;
+	padding: 2% 5% 2% 5%;
+	display: block;
+}
+
+#footer {
+	color: #FFFFFF;
+	font-size: 13px;
+	font-family: arial;
+	display: inline-block;
+
+}
+
+#socialicons {
+	text-align: center;
+	float: right;
+	display: inline-block;
+}
+
+
+.social {
+	color: #FFFFFF!important;
+	font-family: 'Socialico';
+    font-size: 28px;
+    margin: 0 10px 0px 10px;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all 450ms;
+    -moz-transition: all 450ms;
+    -ms-transition: all 450ms;
+    -o-transition: all 450ms;
+    transition: all 450ms;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#editPageForm h1 {
+    font-size: 140%;
+    font-weight: bold;
+    font-weight: normal;
+    margin-bottom: 28px;
+}
+
+#adminTable {
+    width: 75%;
+}
+
+#adminTable th, #adminTable td{
+    height: 40px;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    font-size: 110%;
+}
+
+#adminTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #CD853F;
+    color: white;
+}
+
+#adminTable td {
+    color: #CD853F; 
+}
+
+.editOption {
+    float: right;   
+}
+
+.editOption a{
+    border: none;
+    background-color: transparent;
+}
+
+.editPage, .deletePage {
+    border: none;
+    outline: none;
+    font-family: arial;
+    font-size: 85%;
+    font-weight: normal;
+    color: #CD853F;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.editPage:hover, .deletePage:hover {
+    color: #DEB887;
+    font-size: 90%;
+}
+
+#editPageForm {
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+#editPageForm h2 {
+    margin-top: 20px;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.pageGeneralInfo {
+    width: 50%;
+    height: 50px;
+    font-size: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    padding-top: 25px;
+    vertical-align: middle;
+}
+
+.infoBox {
+    float: right;
+    outline: none;
+    border: 1px solid grey;
+    width: 37%;
+    height: 30px;
+    font-size: 100%;
+}
+
+#addTextForm {
+    width: 50%;
+    height: 320px;
+    font-size: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    padding-top: 25px;
+    vertical-align: middle;
+}
+
+#editTextForm {
+    width: 50%;
+    height: 360px;
+    font-size: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    padding-top: 25px;
+    vertical-align: middle;
+}
+
+
+.fontW {
+    margin-left: 30px;
+}
+
+.newTextContent {
+    border: 1px solid grey;
+    width: 70%;
+    height: 50px;
+    font-size: 100%;
+    resize: auto;
+    text-align: start;
+}
+
+.saveEdit {
+    margin-top: 30px;
+    width: 80px;
+    height: 30px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #F4A460;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+#editPageButton, #editTextButton, #deleteTextButton, #newTextButton {
+    width: 80px;
+    height: 30px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #F4A460;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 100%;
+    cursor: pointer;
+    outline: none;    
+}
+
+

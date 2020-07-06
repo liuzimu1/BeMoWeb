@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Admin Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../stylesheet/mainPage.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheet/adminPage.css">	
+</head>
+<body>
+	<div id="pageContainer">
+		<div id="headerContainer">
+			<div class="navbarContainer">
+				<div id="logoContainer">
+					<a href="/mainPage">
+						<div id = "logo">
+							<img class ="logoImage" src = "https://cdainterview.com/rw_common/images/bemo-logo2.png" alt="LogoImage">
+						</div>
+					</a>
+				</div>
+				<div id="nContainer">
+					<nav>
+						<ul class="navigation">
+							<li>
+								<span style="font-size:17px; font-weight:bold; color:#000066;">Welcome, Admin user.</span> 
+							</li>
+						</ul>				
+					</nav>
+				</div>
+			</div>
+			<div id="bannerContainer">
+				<img id = "bannerImg" src="https://cdainterview.com/resources/how-to-prepare-for-cda-interview.jpg">
+			</div>
+		</div>
+		<div id="contentContainer">
+			<section>
+				<h1>BeMo website administration</h1>
+				<table id="adminTable">
+					<tr>
+						<th>BeMo</th>
+					</tr>
+					<tr>
+						<td>
+							Main
+							<span class="editOption">
+								<button class="editPage">Edit</button>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Contact Us
+							<span class="editOption">
+								<button class="editPage">Edit</button>
+								<button class="deletePage">Delete</button>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="editOption">
+								<button class="addNewPage">Add new page</button>
+							</span>
+						</td>
+					</tr>
+				</table>	
+			</section>
+			<section>
+				<div id="editPageForm">
+					<h1>Edit Page</h1>
+					<div class="pageGeneralInfo">
+						PageID: <input class="infoBox" type="text" name="pId" readonly>
+					</div>
+					<div class="pageGeneralInfo">
+						Name: <input class="infoBox" type="text" name="pName">
+					</div>
+					<div class="pageGeneralInfo">
+						Title: <input class="infoBox" type="text" name="pTitle">
+					</div>
+					<div class="pageGeneralInfo">
+						Banner image url: <input class="infoBox" type="text" name="pBanner">
+					</div>
+					<div id="editTextForm">
+						<span style="font-weight:bold;">Edit text block</span> 
+						<br>
+						<br>
+						Text block No.: <input class="infoBox" type="text" name="txtBlkNum">
+						<br>
+						<br>
+						Font family: <input class="infoBox" type="text" name="fontfam">
+						<br>
+						<br>
+						Font size: <input class="infoBox" type="text" name="fsize">
+						<br>
+						<br>
+						Color: <input class="infoBox" type="text" name="fcolor">
+						<br>
+						<br>
+						Font weight: 
+						<input class="fontW" type="checkbox" name="fweight" value="regular">Light 
+						<input class="fontW" type="checkbox" name="fweight" value="regular">Regular
+						<input class="fontW" type="checkbox" name="fweight" value="bold">Bold
+						<input class="fontW" type="checkbox" name="fweight" value="bolder">Bolder
+						<br>
+						<br>
+						Content: 
+						<br>
+						<input class="newTextContent" type="text" name="textContent">
+					</div>
+					<div id="addTextForm">
+						<span style="font-weight:bold;">New text block</span> 
+						<br>
+						<br>
+						Font family: <input class="infoBox" type="text" name="fontfam">
+						<br>
+						<br>
+						Font size: <input class="infoBox" type="text" name="fsize">
+						<br>
+						<br>
+						Color: <input class="infoBox" type="text" name="fcolor">
+						<br>
+						<br>
+						Font weight:
+						<input class="fontW" type="checkbox" name="fweight" value="regular">Light 
+						<input class="fontW" type="checkbox" name="fweight" value="regular">Regular
+						<input class="fontW" type="checkbox" name="fweight" value="bold">Bold
+						<input class="fontW" type="checkbox" name="fweight" value="bolder">Bolder
+						<br>
+						<br>
+						Content: 
+						<br>
+						<input class="newTextContent" type="text" name="textContent">
+					</div>
+					<div class="pageGeneralInfo">
+						Delete text block No.: <input class="infoBox" type="text" name="txtBlkNum">
+					</div>
+					<button class="saveEdit" onclick="saveChange()">Save</button>
+				</div>						
+			</section>		
+		</div>
+	</div>
+</body>
+</html>

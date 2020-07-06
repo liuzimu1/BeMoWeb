@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Admin Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../stylesheet/mainPage.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheet/adminLoginPage.css">	
+</head>
+<body>
+	<div id="pContainer">
+		<div id="headerContainer">
+			<div class="navbarContainer">
+				<div id="logoContainer">
+					<a href="/mainPage">
+						<div id = "logo">
+							<img class ="logoImage" src = "https://cdainterview.com/rw_common/images/bemo-logo2.png" alt="LogoImage">
+						</div>
+					</a>
+				</div>
+				<div id="nContainer">
+					<nav>
+					</nav>
+				</div>
+			</div>
+			<div id="bannerContainer">
+				<img id = "bannerImg" src="https://cdainterview.com/resources/how-to-prepare-for-cda-interview.jpg">
+			</div>
+			<div id="loginContainer">
+		        <div class="loginTabContainer">
+		            <div class="tab" id="tab">
+		                <button type="button" class="tablinks" id="defaultOpen">
+		                	<span class="tabText">Admin Log In</span>
+		                </button>
+		            </div>
+		        </div>
+		        <!-- Log In Text Field Container-->
+		        <div id="LogIn" class="tabcontent">
+		            <div class="loginTextFieldContainer">
+		                <span class="textFieldTitle">AdminId</span>
+		                <input type="text" id="userEmail" class="textField">
+		                <br>
+		                <span class="textFieldTitle">Password</span>
+		                <input type="password" id="userPassword" class="textField">
+		            </div>
+		            <a href="./adminPage.html"><button type="submit" id="loginButton" class="loginButton" onclick="checkLoginInfo(event)"><span class="buttonLabel">Log In</span></button></a>
+		        </div>			
+			</div>
+		</div>
+	</div>
+	<!-- JS files -->
+	<script type="text/javascript" src="../scripts/loginPage.js"></script>
+</body>
+</html>
